@@ -1,0 +1,20 @@
+#Git configuration:
+	> git config --global user.name "username"
+	> git config --global user.email "useremail@gmail.com"
+
+#Git starting repository 
+	> git init
+	> git status
+
+#Git staging files
+	> git add <filename>
+	> git add <filename> <another_file> <secondtext_file>
+	> git add .
+	> git add --all
+	> git add -A
+	> git rm --cached <filename>
+	> git reset <filename>
+#git committing to a repository
+	>git commit -m "Add more files"
+#git pulling and pushing
+
