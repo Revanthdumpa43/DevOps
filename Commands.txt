@@ -17,4 +17,4 @@
 #git committing to a repository
 	>git commit -m "Add more files"
 #git pulling and pushing
-	
+	>git show
