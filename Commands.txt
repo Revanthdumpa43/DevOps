@@ -16,5 +16,22 @@
 	> git reset <filename>
 #git committing to a repository
 	>git commit -m "Add more files"
-#git pulling and pushing
 	>git show
+#git pulling and pushing from and to repository
+	>git remote add origin <link>
+	>git push -u origin master
+	>git clone <clone>
+	>git pull
+#going to a Particular version
+	>git checkout<command>--"/filename"
+	>git checkout master --"/filename
+Correcting the mistakes
+	1)Edited and saved
+		git restore
+	2)Edited and added to staging area
+		git restore --staged
+	3)Edited ,added to stagging area
+		git restore--worktree
+	4)edited and committed
+		git restore-soft HEAD^
+		git restore-hard HEAD^ 
