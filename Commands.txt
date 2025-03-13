@@ -23,7 +23,7 @@
 	>git clone <clone>
 	>git pull
 #going to a Particular version
-	>git checkout<command>--"/filename"
+	>git checkout<commitID>--"/filename"--------------(to see logId) $ git log --oneline
 	>git checkout master --"/filename
 Correcting the mistakes
 	1)Edited and saved
@@ -35,3 +35,15 @@ Correcting the mistakes
 	4)edited and committed
 		git restore-soft HEAD^
 		git restore-hard HEAD^ 
+Git Logging
+	git log -p -2
+	git log stat
+	git log --pretty=oneline
+	git log --pretty=format:"%h -%an, %ar: %s" ->pretty print with the specified format
+	git log -S <function_name>
+setting and working with GitHub
+Git pulling and pushing from and to repositories
+	>git remote add origin <link>
+	>git push -u origin master
+	>git clone <clone>
+	>git pull 
